@@ -21,7 +21,7 @@ export default defineConfigWithVueTs(
         { blankLine: 'never', prev: 'import', next: 'import' },
         { blankLine: 'never', prev: ['var', 'let', 'const'], next: ['var', 'let', 'const'] },
         { blankLine: 'never', prev: 'if', next: 'if' },
-        { blankLine: 'always', prev: '*', next: 'return' }
+        { blankLine: 'never', prev: '*', next: 'return' }
       ]
     }
   }
