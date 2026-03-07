@@ -1,6 +1,6 @@
 <script lang="ts" setup>
 function exit(): void {
-  window.location.assign(import.meta.env.BASE_URL);
+  window.location.assign('/');
 }
 </script>
 
