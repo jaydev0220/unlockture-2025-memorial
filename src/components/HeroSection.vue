@@ -1,7 +1,6 @@
 <script lang="ts" setup>
 import { onMounted, onUnmounted, useTemplateRef } from 'vue';
 import { renderSpotlights } from './decorationShared';
-import '@fontsource/uoqmunthenkhung/chinese-traditional-400';
 
 const imageRef = useTemplateRef('img-ref');
 const decorationRef = useTemplateRef('decoration-ref');
@@ -106,7 +105,6 @@ $spotlight-size: 5rem;
   left: 2rem;
   transform: rotate(-15deg);
   font-size: xx-large;
-  font-family: 'UoqMunThenKhung', serif;
   text-align: center;
 
   p {
