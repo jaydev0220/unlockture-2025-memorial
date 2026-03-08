@@ -1,6 +1,6 @@
 # Unlockture 2025 Memorial
 
-A modern, interactive full-screen scrolling experience built with Vue 3 and TypeScript. This project showcases a custom scroll hijacking mechanism with smooth fullscreen transitions and multi-section navigation.
+An interactive full-screen scrolling experience built with Vue 3 and TypeScript. This project showcases a custom scroll hijacking mechanism with smooth fullscreen transitions and multi-section navigation.
 
 > This is created to commemorate HACHI's 2025 live tour Unlockture. Also my first concert experience.
 

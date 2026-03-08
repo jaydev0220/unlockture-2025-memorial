@@ -1,6 +1,6 @@
 {
   "name": "unlockture-2025-memorial",
-  "description": "A modern, interactive full-screen scrolling experience built with Vue 3 and TypeScript. This project showcases a custom scroll hijacking mechanism with smooth fullscreen transitions and multi-section navigation.",
+  "description": "An interactive full-screen scrolling experience built with Vue 3 and TypeScript. This project showcases a custom scroll hijacking mechanism with smooth fullscreen transitions and multi-section navigation.",
   "version": "0.0.0",
   "author": "Jay",
   "license": "MIT",
