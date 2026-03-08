@@ -36,6 +36,7 @@ onUnmounted(() => {
       loading="eager"
       decoding="async"
       ref="img-ref"
+      fetchpriority="high"
       @load="handleImageLoad"
     />
     <div class="decoration" ref="decoration-ref"></div>
