@@ -105,11 +105,6 @@ const lanterns = createLanternDecorations(lanternSeeds);
   <section style="--color-theme: #e00200">
     <img
       src="https://cdn.hsieh-dev.us.ci/photos/unlockture-second.webp"
-      srcset="
-        https://cdn.hsieh-dev.us.ci/photos/unlockture-second-medium.webp 332w,
-        https://cdn.hsieh-dev.us.ci/photos/unlockture-second.webp        485w
-      "
-      sizes="(max-width: 1024px) 100dvw, 100dvw"
       alt="Second photo"
       class="image"
       loading="lazy"
