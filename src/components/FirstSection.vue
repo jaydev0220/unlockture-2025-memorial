@@ -92,6 +92,11 @@ const cubes = createCubeDecorations(cubeSeeds);
   <section style="--color-theme: #ddf2ff">
     <img
       src="https://cdn.hsieh-dev.us.ci/photos/unlockture-first.webp"
+      srcset="
+        https://cdn.hsieh-dev.us.ci/photos/unlockture-first-medium.webp 512w,
+        https://cdn.hsieh-dev.us.ci/photos/unlockture-first.webp        983w
+      "
+      sizes="(max-width: 1024px) 100dvw, 100dvw"
       alt="First photo"
       class="image"
       loading="lazy"

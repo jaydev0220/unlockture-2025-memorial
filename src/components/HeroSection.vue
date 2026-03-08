@@ -31,10 +31,16 @@ onUnmounted(() => {
   <section style="--color-theme: #f2b716">
     <img
       src="https://cdn.hsieh-dev.us.ci/photos/unlockture-poster.webp"
+      srcset="
+        https://cdn.hsieh-dev.us.ci/photos/unlockture-poster-medium.webp 513w,
+        https://cdn.hsieh-dev.us.ci/photos/unlockture-poster.webp        704w
+      "
+      sizes="(max-width: 1024px) 100dvw, 100dvw"
       alt="Unlockture poster"
       class="image"
       loading="eager"
       decoding="async"
+      fetchpriority="high"
       ref="img-ref"
       @load="handleImageLoad"
     />

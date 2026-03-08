@@ -30,6 +30,11 @@ onUnmounted(() => {
   <section style="--color-theme: #0356ec; --color-alt: #ddf2ff">
     <img
       src="https://cdn.hsieh-dev.us.ci/photos/unlockture-card.webp"
+      srcset="
+        https://cdn.hsieh-dev.us.ci/photos/unlockture-card-medium.webp  512w,
+        https://cdn.hsieh-dev.us.ci/photos/unlockture-card.webp        1254w
+      "
+      sizes="(max-width: 1024px) 100dvw, 100dvw"
       alt="Thanks card"
       class="image"
       loading="lazy"
